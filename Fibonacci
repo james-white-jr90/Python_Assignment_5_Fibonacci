@@ -1,0 +1,9 @@
+fibonacci=[]
+i=1
+fib=1
+ctrl=0
+while fib < 55:
+    fib=i + ctrl
+    fibonacci.append(fib)
+    i, ctrl = ctrl, fib
+print(fibonacci)
